@@ -1,0 +1,11 @@
+test_dataset:
+  dataset:
+    name: image-folder
+    args:
+      root_path: Te/mnt/hdd1/zhanghonghu1/DATA/MeteoNet_2018/v5_nor
+
+  wrapper:
+    name: sr-implicit-downsampled
+    args:
+      sta_num_gt: 60
+  batch_size: 1
